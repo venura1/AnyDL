@@ -29,7 +29,7 @@ async def start(client, message):
                chat_id=message.chat.id,
                text="""<b>Hey There, I'm AnyDL Bot
 
-I can download video or audio from Youtube. Made by @ImJanindu 🇱🇰
+I can download video or audio from Youtube. Made by @vttech92 🇱🇰
 
 Hit help button to find out more about how to use me</b>""",   
                             reply_markup=InlineKeyboardMarkup(
@@ -37,7 +37,7 @@ Hit help button to find out more about how to use me</b>""",
                                         InlineKeyboardButton(
                                             "Help", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "Channel", url="https://t.me/Infinity_BOTs")
+                                            "Channel", url="https://t.me/@vtbots")
                                     ],[
                                       InlineKeyboardButton(
                                             "Source Code", url="https://github.com/ImJanindu/AnyDL-Bot")
@@ -55,7 +55,7 @@ async def help(client, message):
 
 Just send a Youtube url to download it in video or audio format!
 
-~ @Infinity_BOTs</b>""",
+~ @vtbots</b>""",
         reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
@@ -77,13 +77,13 @@ async def about(client, message):
                chat_id=message.chat.id,
                text="""<b>About AnyDL Bot!</b>
 
-<b>♞ Developer:</b> <a href="https://t.me/ImJanindu">Janindu 🇱🇰</a>
+<b>♞ Developer:</b> <a href="https://t.me/">vttech92 🇱🇰</a>
 
-<b>♞ Support:</b> <a href="https://t.me/InfinityBOTs_Support">Infinity BOTs Support</a>
+<b>♞ Support:</b> <a href="https://t.me/vtbots">VT BOTs Support</a>
 
 <b>♞ Library:</b> <a href="https://github.com/pyrogram/pyrogram">Pyrogram</a>
 
-<b>~ @Infinity_BOTs</b>""",
+<b>~ @vtbots</b>""",
      reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
@@ -276,7 +276,7 @@ async def button(bot, update):
 print(
     """
 Bot Started!
-Join @Infinity_BOTs
+Join @vtbots
 """
 )
 

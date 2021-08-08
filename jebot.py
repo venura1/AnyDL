@@ -29,7 +29,7 @@ async def start(client, message):
                chat_id=message.chat.id,
                text="""<b>Hey There, I'm AnyDL Bot
 
-I can download video or audio from Youtube. Made by @vttech92 🇱🇰
+I can download video or audio from Youtube. Made by @dexter119 🇱🇰
 
 Hit help button to find out more about how to use me</b>""",   
                             reply_markup=InlineKeyboardMarkup(
@@ -37,7 +37,7 @@ Hit help button to find out more about how to use me</b>""",
                                         InlineKeyboardButton(
                                             "Help", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "Channel", url="https://t.me/vtbots")
+                                            "Channel", url="https://t.me/SLLegitBotHunter")
                                     ],[
                                       InlineKeyboardButton(
                                             "Source Code", url="https://github.com/ImJanindu/AnyDL-Bot")
@@ -77,13 +77,13 @@ async def about(client, message):
                chat_id=message.chat.id,
                text="""<b>About AnyDL Bot!</b>
 
-<b>♞ Developer:</b> <a href="https://t.me/">vttech92 🇱🇰</a>
+<b>♞ Developer:</b> <a href="https://t.me/">dexter119 🇱🇰</a>
 
-<b>♞ Support:</b> <a href="https://t.me/vtbots">VT BOTs Support</a>
+<b>♞ Support:</b> <a href="https://t.me/SLLegitBotHunter">SL Legit Bot Hunter</a>
 
 <b>♞ Library:</b> <a href="https://github.com/pyrogram/pyrogram">Pyrogram</a>
 
-<b>~ @vtbots</b>""",
+<b>~ @SLLegitBotHunter</b>""",
      reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
@@ -276,7 +276,7 @@ async def button(bot, update):
 print(
     """
 Bot Started!
-Join @vtbots
+Join @SLLegitBotHunter
 """
 )
 
